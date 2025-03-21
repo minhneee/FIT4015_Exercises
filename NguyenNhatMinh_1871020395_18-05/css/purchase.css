@@ -1,0 +1,52 @@
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(232, 98, 185);
+}
+
+.thumbnail-list {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.thumbnail.active {
+    border-color: #007bff;
+}
+.main{
+    padding: 240px 50px 100px 50px; 
+    justify-content:center;
+    flex-wrap: wrap;
+}
+h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0px 20px; 
+}
+.form-group p {
+    color: rgb(122, 231, 108);
+}
+.input-group-append{
+    padding: 0px 0px 0px 10px;
+}
+.input-group-append button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(232, 98, 185);
+    border-color: #52e178;
+}
+input[type="number"] {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ec60c2;
+    border-radius: 4px;
+  }
